@@ -267,7 +267,7 @@ if __name__ == "__main__":
                         help="Target language (translating TO this language)")
 
     # Training settings 
-    parser.add_argument("-e", "--epochs", type=int, default=30,
+    parser.add_argument("-e", "--epochs", type=int, default=10,
                         help="Epochs")
     parser.add_argument("--lr", type=float, default=1e-4,
                         help="Default learning rate")
